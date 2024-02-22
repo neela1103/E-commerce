@@ -1,0 +1,105 @@
+.main {
+    margin-top: 4rem;
+    display: flex;
+    margin-left: 5rem;
+}
+
+.btn {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    width: 12.9375rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #E04342;
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: white;
+}
+.thankYouMessage{
+    margin-left: 8rem;
+    color: green;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.inputField{
+    width: 32rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    height: 4rem;
+    border-radius: 2rem;
+    padding-left: 2rem;
+}
+
+.subscribe {
+    margin-top: 10rem;
+    color: #484848;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.boys {
+    height:580px;
+    width:280px;
+}
+.girls{
+    padding-top: 5rem;
+    height:750px;
+    width:280px;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }    
+    .main {
+        align-items: center;
+        margin-left: 2.2rem;
+        margin-top: 2rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+        margin-left: 1.8rem;
+        width: 4rem;
+        height: 1.5rem;
+        font-size: 0.4rem;
+    }
+
+    .thankYouMessage {
+        margin-left: 0;
+    }
+    .boy {
+        height:200px;
+        width:100px;
+    }
+    .girls{
+        padding-top: 0rem;
+        height:200px;
+        width:100px; 
+    }
+
+    .inputField {
+        width: 7rem;
+        margin-left: 0.7rem;
+        margin-top: 2rem;
+        height: 1.5rem;
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .subscribe {
+        margin-top: 0rem;
+        font-size: 1rem;
+        width: 8rem;
+        margin-bottom: 0rem;
+    }
+    .inputField::placeholder {
+        font-size: 8px;
+
+    }
+}

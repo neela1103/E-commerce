@@ -1,0 +1,33 @@
+.main {
+  margin-top: 2rem;
+  text-align: center;
+  ;
+}
+
+
+.text {
+  margin-top: 24px;
+}
+
+.icon {
+  border: 1px solid #393838;
+  border-radius: 50%;
+  padding: 24px;
+  width: 6rem;
+  margin-left: 26rem;
+}
+
+@media (max-width: 480px) {
+  .main {
+    margin-top: 25%;
+    height: auto;
+    overflow-x: hidden;
+    margin-bottom: 35%;
+    overflow-y: hidden;
+  }
+
+  .icon {
+    margin-left: 34%;
+  }
+
+}

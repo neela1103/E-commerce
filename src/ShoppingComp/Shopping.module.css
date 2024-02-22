@@ -1,0 +1,161 @@
+.filters {
+    margin-top: 3rem;
+    display: flex;
+    padding-top: 1rem;
+    background-color: rgb(236, 86, 86);
+    color: rgb(255, 255, 255);
+  }
+  
+.inner{
+    display: flex;
+}
+  .fil {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+ 
+.coll{
+    margin-left: 13rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.dropdown1{
+    margin-left: 42rem;
+    height: 2.5rem;
+    width: 10rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(236, 86, 86);
+    color: white;
+}
+
+
+.checkboxLabel {
+  margin-left: 8px; 
+  cursor: pointer;
+}
+
+.checkbox{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.Brand{
+    margin-left: rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.Category{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.dresses {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 1rem;
+  position: relative;
+  max-width: 100%; /* Set max-width to 100% */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  width: 58.6rem; /* Optionally, you can set a specific width */
+  margin-left: 9rem;
+}
+
+/* Other styles remain unchanged */
+
+
+  .inner{
+    margin-bottom: 1rem;
+  }
+  .price {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .checkboxItem {
+    cursor: pointer;
+  }
+
+.brand{
+  font-size: 0.9rem;
+}
+.name{
+  font-size: 0.9rem;
+  color: grey;
+}
+
+/* Existing styles remain unchanged */
+
+
+@media (max-width: 480px) {
+  .filters {
+    margin-top: 1rem;
+    display: block;
+    padding-top: 0.5rem;
+    font-size: small;
+  }
+  .main{
+    width: 100%;
+    overflow-x: hidden;
+    
+  }
+
+  .inner {
+    display: block;
+  }
+
+  .fil {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .coll {
+    display: none;
+  }
+
+  .dropdown1 {
+    margin: 0rem 1rem 1rem 1rem;
+    width: 40%;
+    height: 2rem;
+  }
+  .dropdown1::after{
+    width: 5rem;
+  }
+
+  .checkboxLabel {
+    margin-left: 0.5rem; 
+    cursor: pointer;
+  }
+
+  .checkbox {
+    margin: 1rem 0rem 0rem 1rem;
+  }
+
+  .Brand,
+  .Category {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+
+  .dresses {
+    width: 100%;
+    margin-left: 0rem;
+    padding-left: 21%;
+    margin-top: 5rem;
+    overflow-x: hidden; 
+  }
+ 
+
+  .price,
+  .checkboxItem,
+  .brand,
+  .name {
+    font-size: 0.8rem;
+  }
+}
+
+

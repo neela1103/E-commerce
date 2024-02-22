@@ -1,0 +1,75 @@
+.head{
+    font-weight: 600;
+    cursor: pointer;
+}
+.collection{
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 3rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+.collection:hover{
+    color: red;
+}
+.icon{
+    justify-content:end ;
+    display: flex;
+    gap: 2.2rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+.quantity ,.wishquan {
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    z-index: 1;
+    color: white;
+    font-size: 0.7rem; 
+    background-color: rgb(92, 114, 189); 
+    border-radius: 50%; 
+    padding: 0.1em 0.5em; 
+    margin-left: -2.9rem; 
+    margin-top: -1rem;
+}
+
+.red{
+    color: red;
+}
+.icon :hover{
+    color: red;
+}
+.usernav {
+    font-size: 1.4rem;
+    margin-left: 2.3rem;
+    margin-top: -0.5rem;
+    cursor: pointer
+}
+
+@media (max-width: 767px) {
+    .head{
+        font-size: 0.8rem;
+    }
+    .collection {
+        font-size: 0.6rem; /* Adjust font size for smaller screens */
+        margin-left: 1rem; /* Adjust margin for smaller screens */
+    }
+
+    .icon {
+        gap: 1rem; /* Adjust gap for smaller screens */
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
+    }
+
+    .quantity,
+    .wishquan {
+        font-size: 0.4rem; /* Adjust font size for smaller screens */
+        margin-left: -1.3rem; /* Adjust margin for smaller screens */
+        margin-top: -0.8rem; /* Adjust margin for smaller screens */
+    }
+
+    .usernav {
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
+        margin-left: 0.8rem; /* Adjust margin for smaller screens */
+        margin-top: -0.3rem; /* Adjust margin for smaller screens */
+    }
+}

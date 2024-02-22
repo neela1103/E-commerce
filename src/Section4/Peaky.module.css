@@ -1,0 +1,282 @@
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  height: 30rem;
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.words {
+  color: #000;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  text-align: center;
+  padding-top: 5px;
+  width: 6rem;
+  height: 2.4375rem;
+  border: 1px solid #000;
+  cursor: default;
+  background: rgba(255, 255, 255, 0.41);
+  backdrop-filter: blur(6px);
+}
+
+.peaky {
+  height: 30rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.peaky::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(115deg, transparent 0%, transparent 49.5%, rgba(245, 163, 151, 0.29) 49.5%, rgba(245, 163, 151, 0.29) 100%);
+}
+
+.peaky::after {
+  content: '';
+  position: absolute;
+  top: -1.5rem;
+  left: 49.5%;
+  width: 2px;
+  height: 110%;
+  background-color: #000;
+  transform: translateX(-45%) rotate(25deg);
+  z-index: 1;
+}
+
+.written {
+  position: absolute;
+  top: 5rem;
+  left: 58%;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.women {
+  color: #767676;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.name {
+  color: #484848;
+  font-family: Volkhov;
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.desc {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.lines {
+  width: 30rem;
+  color: #767676;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.size {
+  color: #767676;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rate {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.rate2 {
+  margin-top: -2.8rem;
+  margin-left: 3.5rem;
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn {
+  width: 10rem;
+  height: 3.5rem;
+  color: white;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #DD4241;
+  box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+.firstarrow {
+  margin-top: -29rem;
+  margin-left: 17.6rem;
+}
+
+.box1,
+.box2,
+.box3 {
+  margin-left: 6.6rem;
+  margin-top: 0.2rem;
+}
+
+.secondarrow {
+  margin-top: 5rem;
+  margin-left: 15.4rem;
+}
+
+.thirdarrow {
+  margin-top: 9rem;
+  margin-left: 15rem;
+}
+
+.box4,
+.box5 {
+  margin-left: -2rem;
+}
+
+.fortharrow {
+  margin-top: -22rem;
+  margin-left: 4.2rem;
+}
+
+.fiftharrow {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+/* Media query for screens with a max-width of 480px */
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+.peaky{
+  height: auto;
+}
+  .main {
+    height:auto;
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    overflow-x: hidden;
+  }
+
+  .written {
+    margin-left: -0.8rem;
+    margin-top: -5rem;
+    padding-top: 2%;
+  }
+
+  .fiftharrow,
+  .fortharrow,
+  .thirdarrow,
+  .secondarrow,
+  .firstarrow {
+    display: none !important;
+  }
+
+  .women {
+    font-size: 0.7rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .name {
+    margin-bottom: 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .desc {
+    margin-bottom: 0.4rem;
+    font-size: 0.5rem;
+  }
+
+  .lines {
+    font-size: 0.5rem;
+    width: 9rem;
+  }
+
+  .size {
+    font-size: 0.575rem;
+  }
+
+  .rate {
+    font-size: 0.7rem;
+  }
+
+  .rate2 {
+    font-size: 1rem;
+  }
+
+  .main img {
+    width: 60%;
+    height: 15rem;
+  }
+
+  .rate2 {
+    display: none !important;
+  }
+
+
+  .btn {
+    width: 3.5rem;
+    font-size: 0.5rem;
+    height: 1.5rem;
+  }
+
+  .peaky::before {
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, transparent 49.5%, rgba(245, 163, 151, 0.29) 49.5%, rgba(245, 163, 151, 0.29) 100%);
+  }
+
+  .peaky::after {
+    top: 0rem;
+    width: 2px;
+    height: 100%;
+    background-color: #000;
+    transform: translateX(-90%) rotate(0deg);
+    z-index: 1;
+  }
+}
+
+/* Continue with your existing styles */

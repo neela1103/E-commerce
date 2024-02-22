@@ -1,0 +1,200 @@
+.main {
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    padding-left: 10rem;
+    gap: 4rem;
+    padding-right: 5rem;
+}
+
+.icon {
+    width: 3.188rem;
+    height: 3.188rem;
+}
+
+.upper {
+    margin-top: -3.5rem;
+    margin-left: 3.2rem;
+    color: #484848;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lower {
+    margin-left: 3.2rem;
+    margin-top: 1rem;
+    color: #484848;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.insta {
+    text-align: center;
+
+}
+
+.follow {
+    color: #484848;
+    font-family: Volkhov;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5rem;
+}
+
+.para {
+    color: lightseagreen;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-left: 26rem;
+    width: 27.375rem;
+    height: 2.875rem;
+    margin-bottom: 12rem;
+}
+
+.imageBanner {
+    margin-top: -6rem;
+    margin-bottom: 4rem;
+}
+
+.community {
+    text-align: center;
+}
+
+.comm {
+    color: #484848;
+    font-family: Volkhov;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.commdown {
+    width: 32.375rem;
+    margin-left: 23rem;
+    color: rgb(119, 197, 193);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    ;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .main {
+        margin-top: 2rem;
+        padding-top: 1rem;
+        padding-left: 0.9rem;
+        padding-right: 0.8rem;
+        gap: 1.4rem;
+        height: 6rem;
+        overflow: hidden;
+    }
+
+    .icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .upper {
+        margin-top: -2.5rem;
+        margin-left: 1.8rem;
+        color: #484848;
+        font-family: Poppins;
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .lower {
+        margin-left: 1.9rem;
+        margin-top: 1rem;
+        color: #484848;
+        font-family: Poppins;
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 0.6rem;
+    }
+
+    .follow {
+        width: auto;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        font-size: 1.2rem;
+    }
+
+    .community {
+        text-align: center;
+        margin-bottom: -4rem;
+    }
+
+    .comm {
+        width: auto;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-right: 3%;
+        font-size: 1.2rem;
+    }
+
+    .para {
+        margin-left: 10%;
+        font-size: 0.6rem;
+        width: 80%;
+        margin-bottom: 4rem;
+        color:rgb(111, 138, 218);
+        line-height: 1.5;
+    }
+
+    .imageBanner {
+        margin-top: -2rem;
+        display: flex;
+        margin-left: -0.65rem;
+        margin-bottom: 3rem;
+        overflow: hidden;
+    }
+
+    .low1 {
+        width: 19%;
+        height: 6rem;
+    }
+
+    .up1 {
+        width: 15%;
+        height: 7rem;
+    }
+
+    .low,
+    .up {
+        display: none;
+    }
+
+    .commdown {
+        margin-top: 0rem;
+        font-size: 0.6rem;
+        margin-left: 2.2rem;
+        color: lightseagreen;
+        width: 80%;
+    }
+}

@@ -1,0 +1,183 @@
+.lower {
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.img {
+    margin-top: 2rem;
+    height: 27rem;
+    width: 18rem;
+    margin-left: 20rem;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    gap: 1rem;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 500;
+   
+}
+.brand,.name,.price,.size{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: grey;
+}
+
+.price {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.size{
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+.sizes{
+    display: flex;
+    gap: 0.5rem;
+    
+}
+.sizeslen{
+    height: 3rem;
+    width: 3rem;
+    background-color: transparent;
+    border-radius: 5rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    border: 0.05rem solid grey;
+    cursor: pointer;
+}
+.sizeslen:hover,
+.sizeslen:active {
+  border: 0.05rem solid red;
+}
+
+.sizeslen:visited {
+  outline: none; 
+  border: 0.05rem solid red;
+}
+
+
+.sizeslen.selected {
+    border: 0.05rem solid rgb(255, 0, 0);
+}
+
+  
+.sizechart{
+    color: blue;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.wish , .cart , .wishlisted{
+    margin-bottom: 2rem;
+    height: 3.5rem;
+    border-radius: 0.8rem;
+    width: 10rem;
+}
+.wish , .wishlisted {
+    color: rgb(245, 70, 70);
+    border: 1px solid rgb(245, 70, 70); 
+    background-color: white;
+  }
+.cart{
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 1rem;
+    color: white;
+    border: 1px solid white;
+    background-color:rgb(245, 70, 70) ;
+}
+.cart:hover {
+    background-color: rgb(235, 0, 0) 
+}
+
+/* Existing styles remain unchanged */
+
+@media (max-width: 767px) {
+    .lower {
+      margin-left: 3rem;
+      flex-direction: column; /* Change to column layout for smaller screens */
+      gap: 1rem; /* Adjust gap for smaller screens */
+    }
+  
+    .img {
+      width: 100%; /* Make the image full width on smaller screens */
+      margin-left: 0; /* Remove left margin for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .content {
+      margin-top: 2rem; /* Adjust top margin for smaller screens */
+    }
+  
+    .brand {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+  
+    .name {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+  
+    .price {
+      font-size: 1.1rem; /* Adjust font size for smaller screens */
+    }
+  
+    .size {
+      margin-top: 0.5rem; /* Adjust top margin for smaller screens */
+      font-size: 1rem; /* Adjust font size for smaller screens */
+      font-weight: 500;
+    }
+  
+    .sizeslen {
+      height: 2.5rem; /* Adjust height for smaller screens */
+      width: 2.5rem; /* Adjust width for smaller screens */
+      padding-top: 0.3rem; /* Adjust padding for smaller screens */
+    }
+  
+    .sizechart {
+      margin-left: 0; /* Remove left margin for smaller screens */
+    }
+  
+    .popup {
+      width: 80%; /* Adjust width for smaller screens */
+      margin-left: -40%; /* Center horizontally on smaller screens */
+    }
+  
+    .wish,
+    .cart,
+    .wishlisted {
+      width: 100%; /* Make buttons full width on smaller screens */
+      margin-bottom: 1rem; /* Adjust bottom margin for smaller screens */
+    }
+  
+    .cart {
+      margin-left: 0; /* Remove left margin for smaller screens */
+    }
+    .btn{
+        width: 18rem;
+        gap: 1rem;
+        display: flex;
+    }
+  }
+  

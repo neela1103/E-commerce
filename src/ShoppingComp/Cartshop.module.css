@@ -1,0 +1,126 @@
+.main{
+    width: 45rem;
+    height: 20rem;
+    margin: 4rem auto 0rem;
+    display: flex;
+    gap: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left, .right{
+    position: relative;
+    height: 18rem;
+    margin-top: 1rem;
+}
+.left{
+    width:26rem;
+    margin-left :1rem;
+}
+.cart{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.Numberofitem{
+    margin-left: 1rem;
+}
+.right{
+    width: 16.5rem
+}
+.item{
+    margin-top: 1rem;
+    width: 25.5rem;
+    height: 9rem;
+    display: flex;
+    border: 0.05rem solid rgb(142, 141, 141);
+}
+.img{
+    width:10rem;
+    background-color: white;
+}
+.aboutItem{
+    width: 17rem;
+    margin-left: 0.5rem;
+}
+.brand{
+    margin-top: 0.5rem;
+}
+.cross{
+    float: right;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.name{
+    margin-top: -0.8rem;
+    color: #777777;
+}
+.sizequan{
+    display: flex;
+}
+.size, .quantity{
+    height: 1.5rem;
+    background-color: #EEEEEE;
+    border: none;
+    padding-left: 0.5rem;
+}
+.size{
+    width: 3.9rem;
+}
+.quantity{
+    margin-left: 1rem;
+    width: 5.1rem;
+}
+.dropdown{
+    width: 2rem;
+    background-color: #EEEEEE;
+    border: none;
+}
+.Pricecal{
+    margin-top: 0.5rem;
+}
+.left1{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricedetails{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-weight: 600;
+}
+.right1{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.price1{
+    float: right;
+    font-size: 0.9rem;    
+}
+.Total{
+    margin-top: -1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.Total1{
+    float: right;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.price,.Discount,.shipping{
+    margin-top: -0.5rem;
+    font-size: 0.9rem;
+}
+.shipping{
+
+ margin-bottom: -1.5rem;
+}
+.btn{
+    margin: 0.6rem 0.5rem 0rem;
+    width: 16rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgb(235, 67, 67);
+    border: none;
+}

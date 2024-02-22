@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* body{
+    background-color: #D6D6E7;
+} */
+.outer {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  width: 27rem;
+  height: auto;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+  background: #d8e2dc;
+}
+
+.head {
+  margin: 0rem 6.5rem;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  justify-items: center;
+  text-decoration: underline;
+}
+
+.email {
+  padding-left: 2rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.inputemail {
+  width: 80%;
+  border: none;
+  height: 2rem;
+  outline: none;
+  border-radius: 0.4rem;
+}
+
+.btn {
+  width: 8rem;
+  height: 2rem;
+  margin: 2rem 9rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+}
+
+.btn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #63a0dd 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.sign {
+  float: right;
+  margin-right: 2rem;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sign:hover {
+  text-decoration: underline;
+  color: darkblue;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+
+  .main {
+    width: 90%;
+    margin: 12% auto 15%;
+    overflow-x: hidden;
+  }
+
+
+  .head {
+    margin: 7% 28%;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 0.5rem;
+  }
+
+
+  .email {
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    font-weight: 550;
+  }
+
+  .inputemail {
+    width: 90%;
+  }
+
+  .btn {
+    width: 5rem;
+    margin: 10% 40% 10% 35%;
+  }
+
+  .sign {
+    float: none;
+    margin-left: 5%;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+/* Font face declarations */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-cSZMZ-Y.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+
+}

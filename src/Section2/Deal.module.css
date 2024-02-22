@@ -1,0 +1,205 @@
+.main {
+    width: 78rem;
+    height: 37rem;
+    background: linear-gradient(180deg, #FFF 0%, #FAFAFA 100%);
+    display: flex;
+    margin-top: 5rem;
+}
+
+.deals {
+    margin-left: 9.5rem;
+    margin-top: 4rem;
+}
+
+.headline {
+    color: #484848;
+    font-family: 'Volkhov', serif;
+    font-size: 2.575rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.written {
+    width: 24.5rem;
+    color: #8A8A8A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.buttn {
+    background-color: #E04342;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    width: 10.9375rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.hurry {
+    margin-top: 1rem;
+    color: #484848;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.time {
+    display: flex;
+    gap: 1rem;
+}
+
+.box {
+    width: 3.75rem;
+    height: 3.40rem;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(0 0 0 / 0.2);
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.6rem;
+    font-weight: 300;
+}
+
+.numbers {
+    padding: 1rem 0.5rem 0 0.6rem;
+}
+
+.timeunit {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    margin-left: -1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.slider {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    width: 30rem;
+    height: 28rem;
+}
+
+.image1 {
+    padding: 2rem;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 30rem;
+    height: 28.125rem;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .main {
+        width: calc(100% - 3.4rem);
+        height: auto;
+        margin: 0% 7% ;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .headline {
+        text-decoration: underline ;
+        margin-left: 28%;
+        font-size: medium;
+    }
+
+    .written {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.6rem;
+        margin-left: 0%;
+        color: lightcoral;
+        width: auto;
+        text-align: center;
+        line-height: 2.5;
+    }
+
+    .buttn {
+        margin-left: 38%;
+        font-size: 0.6rem;
+        width: 4rem;
+        height: 1.5rem;
+    }
+
+    .hurry {
+        margin-top: 5%;
+        font-size: medium;
+        margin-left: 18%;
+        margin-bottom: 1.5rem;
+    }
+
+    .deals {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .time {
+        margin-left: 2.7rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .box {
+        width: 6vh;
+        height: 4vh;
+        font-size: 1rem;
+        font-weight: 300;
+        margin-left: -1%;
+    }
+
+    .numbers {
+        padding: 15% 30% 30%;
+    }
+
+    .timeunit {
+        gap: 2.3rem;
+        margin-top: 4%;
+        margin-left: 6%;
+
+    }
+
+    .slider {
+        margin-left: 9.5%;
+        margin-top: 0rem;
+        width: 17rem;
+        margin-top: 1rem;
+        height: 15.5rem;
+    }
+
+    .slider,
+    .imgHolder {
+        height: 15rem;
+        background-color: transparent;
+    }
+
+    .image2,
+    .image3 {
+        margin-left: -6.8rem;
+        margin-top: -3rem;
+        object-fit: contain;
+    }
+
+    .image1 {
+        margin-left: -6.8rem;
+        margin-top: -7rem;
+        object-fit: contain;
+    }
+
+
+}

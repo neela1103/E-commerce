@@ -1,0 +1,35 @@
+.gradient-custom {
+    background: #6a11cb;
+    
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+    .quantity{
+        width: 30%;
+        height: 2.2rem;
+        text-align: center;
+        border: 0.1rem solid blue;
+        border-radius: 0.5rem;
+    }
+
+    .checkout {
+        background-color: rgb(252, 52, 52);
+        color: white;
+        width: 20rem;
+        height: 2.5rem;
+        border-radius: 0.5rem;
+        border-color: black;
+        transition: background-color 0.3s ease-in-out;
+       align-items: center;
+    }
+    
+    .checkout:hover {
+        background-color: darkred;
+    }
+@media(max-width: 767px){
+    .checkout{
+        width: auto;
+        margin-left: 32%;
+    }
+}

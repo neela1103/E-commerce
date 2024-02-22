@@ -1,0 +1,276 @@
+
+.new {
+  margin-top: 2rem;
+  color: #484848;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 1rem; 
+}
+
+.main {
+  width: 80rem;
+  height: 80rem;
+}
+
+.line {
+  width: 38.375rem;
+  color: #FF4646;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-left: 21rem;
+}
+
+.types {
+  margin-top: 3.14rem;
+  display: flex;
+  margin-left: 13rem;
+  margin-bottom: 4.14rem;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  background-color: white;
+  width: 10.9375rem;
+  height: 3.5rem;
+  gap: 1.87rem;
+  border: none;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover {
+  background-color: #E04342;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.upper {
+  display: flex;
+  margin-left: 11rem;
+  margin-bottom: 5rem;
+}
+
+.lower {
+  display: flex;
+  margin-left: 11rem;
+
+}
+
+.outer1,
+.outer2,
+.outer3,
+.outer4,
+.outer5,
+.outer6 {
+  width: 18.125rem;
+  height: 27.375rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.outer2,
+.outer3,
+.outer5,
+.outer6 {
+  margin-left: 1rem;
+}
+
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.stars {
+  width: 5rem;
+  height: 1.1875rem;
+  margin-left: 11.7rem;
+  margin-top: -8.6rem;
+}
+
+.dressname {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  color: #484848;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.karam {
+  margin-left: 2rem;
+  color: #8A8A8A;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.75rem;
+  /* 100% */
+}
+
+.rating {
+  margin-left: 2rem;
+  color: #484848;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+.price {
+  margin-left: 2rem;
+  color: #484848;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  /* 83.333% */
+  letter-spacing: -0.015rem;
+}
+
+.sold {
+  color: #FF4646;
+  margin-left: 12rem;
+  margin-top: -2.3rem;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.btn {
+  width: 12.9375rem;
+  height: 3.5rem;
+  margin-top: 5rem;
+  border-radius: 0.625rem;
+  background: #E04342;
+  box-shadow: none;
+  border: none;
+  color: white;
+  margin-left: 32.5rem;
+}
+
+
+
+/* Your existing styles */
+
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .new {
+    font-size: 1.5rem; 
+    text-align: center;
+    margin: 2rem 0 0.8rem 0; 
+  }
+
+  .main {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .line {
+    text-align: center;
+    width: 80%; 
+    font-family: 'Times New Roman', Times, serif;
+    color: #FF4646;
+    font-size: 0.7rem;
+    margin: 0.8rem 2rem 0rem; 
+  }
+
+  .types {
+    text-decoration: underline #206777;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 5%; 
+  }
+.one,
+.two,
+.three,
+.four,
+.five {
+  width: 80%;
+  height: 2.5rem;
+  font-weight: 500;  
+}
+
+  .outer1,
+  .outer2,
+  .outer3,
+  .outer4,
+  .outer5,
+  .outer6 {
+    width: 90%; 
+    height: 30rem; 
+    overflow-x: hidden;
+    margin: 5% -2.5%;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    margin-left: 8%; 
+    margin-top: 1rem; 
+  }
+
+  .upper,
+  .lower {
+    flex-direction: column; 
+    margin-bottom: 0; 
+    margin-left: 3rem; 
+  }
+  .sold{
+    margin-top: 1.5rem;
+  }
+  .stars {
+    margin-left: 10rem; 
+    margin-top: -2.85rem; 
+  }
+
+  .dressname,
+  .karam,
+  .rating,
+  .price,
+  .sold {
+    margin-left: 9%; 
+    font-size: 1rem;
+  }
+
+  .btn {
+    margin-left: 35%; 
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.6rem;
+    margin-top: 1.5rem;
+    width: 30%; 
+  }
+}
+
